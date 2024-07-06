@@ -183,3 +183,49 @@ nav ul li:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+.gift {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+  scroll-margin: 120px;
+}
+.gift_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.gift_content hr {
+  width: 55vw;
+  color: black;
+}
+.footer_up {
+  background-color: var(--purple600);
+  padding: 20px;
+  color: white;
+}
+.footer .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.footer_links ul {
+  list-style-type: none;
+  text-align: start;
+}
+.footer_links h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+.footer_low {
+  background-color: var(--purple300);
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+section {
+  scroll-margin: 70px;
+}
