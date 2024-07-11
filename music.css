@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  width: 100vw;
+  background: linear-gradient(to right, #4e5caa, #471fa3);
+}
+header {
+  background-color: var(--purple300);
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+nav p {
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #270082;
+  color: white;
+  padding: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li {
+  list-style: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+nav ul li:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3s ease-in;
+}
+.song {
+  margin: 20px 5px;
+  padding: 8px;
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  width: 16.5vw;
+  background-color: #281154;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  background-size: cover;
+}
+.song:hover {
+  transition: 0.6s ease-in-out;
+  opacity: 0.8;
+  background-color: red;
+  padding: 10px;
+  box-shadow: rgba(5px, 5px, 5px, 0.803);
+}
+.song img {
+  border-radius: 5px;
+  object-fit: fill;
+}
+.song p b {
+  font-size: 15px;
+  font-weight: 800;
+}
+.song p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 35px;
+}
+.music_container {
+  scroll-margin: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  margin-bottom: 30px;
+  width: 16vw;
+  margin: auto;
+  border-radius: 25px;
+  background: linear-gradient(to right, #4e5caa, #471fa3);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+h1:hover {
+  opacity: 0.6;
+  transition: 0.3s ease-in;
+}
+input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 21px;
+  text-align: center;
+  background: linear-gradient(45deg, #f3f3f3, #7c35fb);
+  margin-left: 695px;
+  outline: none;
+}
